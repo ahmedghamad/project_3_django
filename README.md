@@ -48,3 +48,16 @@ project_3_django/
 ├── Procfile
 └── env.py
 
+
+## Preview
+
+![project_3_django](static/images/bookfinder_home.png)
+![project_3_django](static/images/bookfinder_login.png)
+![project_3_django](static/images/bookfinder_register.png)
+![project_3_django](static/images/bookfinder_search.png)
+![project_3_django](static/images/bookfinder_recommendations.png)
+![project_3_django](static/images/bookfinder_logout.png)
+
+## Credits
+
+This project is created by Ahmed Hamad thanks to the developers of Django and Requests for their amazing libraries.. Feel free to contribute or report issues if any.
