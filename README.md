@@ -28,6 +28,7 @@ This project is a Book Recommendation System built with Django. It allows users 
 6. Apply migrations and start the development server:
 
 ### Project Structure
+![project_3_django](static/images/bookfinder_folder%20structure.png)
 project_3_django/
 │
 ├── home_page/
