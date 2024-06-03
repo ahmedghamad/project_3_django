@@ -1,0 +1,139 @@
+
+* {  /* wild card identifier */
+    margin: 0;
+}
+
+body { /* body styling */
+
+    background-color: #dad2d2;
+    color: rgb(3, 0, 54);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ #header-page {  /* header styling */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: rgb(2,0,36);
+    background: linear-gradient(133deg, rgba(2,0,36,1) 0%, rgba(215,97,200,1) 19%, rgba(0,212,255,1) 100%);
+ }
+
+ h1 { /* h1 styling */
+    text-align: center ;
+    color:#292828;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+h3 { /* h3 styling */
+
+    text-decoration: underline;
+    margin-top: 50px;
+    margin-bottom: 30px
+
+}
+
+h4 { /* h4 styling */
+    text-decoration: underline;
+    margin-top: 50px;
+    margin-bottom: 30px
+}
+
+button {  /* button styling */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    cursor: grab;
+    transition: .5s;
+    color: blue;
+}
+
+button:hover{ /* pseudo class */
+    box-shadow: 0px 0px 35px 0px rebeccapurple;
+}
+
+img { /* leaving spcae between image an text */
+    margin-top: 10px;
+    height: 600px;
+    width: 100%;
+    position: center, no-repeat;
+    size: cover;
+    transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -webkit-transition: all .5s ease-in;
+}
+/* Hero section */
+
+#cover-text {
+  /* Final rgba value sets the opacity so it is semi-transparent */
+  background-color: rgba(241, 109, 107, .7);
+  font-size: 130%;
+  position: absolute;
+  bottom: 30px;
+  width: 80%;
+  min-height: 200px;
+  padding-top: 40px;
+  padding-left: 10px;
+}
+
+a { /* anchor tag styling */
+    color: rgb(19, 102, 226);
+}
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Adjust this as needed */
+    padding: 20px; /* Adjust this as needed */
+  }
+  
+form.login, form.signup {
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width as needed */
+    padding: 20px;
+    border: 1px solid #ccc; /* Optional: Add border for better visibility */
+    border-radius: 8px; /* Optional: Add border radius for rounded corners */
+    background-color: #f9f9f9; /* Optional: Add background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow */
+  }
+
+
+
+.centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  width: 80%; /* Adjust the width as needed */
+}
+
+@media (max-width: 768px) {
+  .centered-image {
+      width: 80%; /* Adjust the width for smaller screens */
+      height: 80%;
+  }
+}
+
+@media(min-width: 992px) {
+  .center-form{
+      padding-top: 30px;
+      min-height: 240px;
+      margin: 0 auto;
+      max-width: 80%;
+  }
+}

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+{% block title %}
+    Apology
+{% endblock %}
+
+{% block content %}
+    
+<h1>{% trans "Oops!!" %}</h1>
+<img alt="{{ top }}" class="centered-image border img-fluid" src="{% static 'images/NoResultsFound.gif' %}" title="{{ top }}">
+{% endblock %}

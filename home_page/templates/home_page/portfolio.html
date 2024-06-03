@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+    recommended
+{% endblock %}
+
+{% block content %}
+<table>
+
+    <tr>
+    
+    
+    {% for recommendation in recommendations %}
+    <tr>
+        <th> Book Title </th>
+        <th> Book description </th>
+    </tr>
+            <td> {{ recommendation.book_title }}</td>
+            <td>
+                <details>
+                    <summary>{{ recommendation.description|truncatewords:10 }}</summary>
+                    {{ recommendation.description }}
+                </details>
+            </td>
+    
+    </tr>
+    {% endfor %}
+    </table>
+{% endblock %}
+

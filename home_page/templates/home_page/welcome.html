@@ -1,0 +1,19 @@
+
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+{% block title %}
+    Welcome
+{% endblock %}
+
+{% block content %}
+
+
+
+<section id="Welcome">
+    <div id="books">
+        <h1>{% trans "Welcome!!" %}</h1>
+        <img alt="{{ top }}" class="centered-image border img-fluid" src="{% static 'images/MyNextBook.jpg' %}" title="{{ top }}">
+    </div>
+</section>
+{% endblock %}

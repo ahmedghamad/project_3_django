@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+    results
+{% endblock %}
+
+{% block content %}
+<table>
+
+<tr>
+
+
+{% for recommendation in recommendations %}
+<tr>
+    <th> Book Title </th>
+    <th> Book Author </th>
+    <th> Book publisher </th>
+    <th> Book description </th>
+</tr>
+        <td> {{ recommendation.title }}</td>
+        <td> {{ recommendation.author }}</td>
+        <td> {{ recommendation.publisher }}</td>
+        <td> {{ recommendation.description}}</td>
+{% endfor %}
+</tr>
+</table>
+{% endblock %}
