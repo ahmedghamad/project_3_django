@@ -5,6 +5,7 @@
 {% endblock %}
 
 {% block content %}
+<form method="post">
 <table>
 
     <tr>
@@ -15,6 +16,7 @@
         <th> Book Title </th>
         <th> Book description </th>
     </tr>
+            
             <td> {{ recommendation.book_title }}</td>
             <td>
                 <details>
@@ -22,9 +24,13 @@
                     {{ recommendation.description }}
                 </details>
             </td>
+            <td><input type="checkbox" name="selected_books" value="{{ recommendation.id }}"></td>
     
     </tr>
     {% endfor %}
     </table>
+<br>
+<br>
+</form>
 {% endblock %}
 

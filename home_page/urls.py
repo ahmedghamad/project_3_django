@@ -7,5 +7,5 @@ urlpatterns = [
     path('recomended/', Recomended, name='recomended'),
     path('welcome/', Welcome_view, name='welcome'),
     
-    # Other URLs...
+    
 ]
